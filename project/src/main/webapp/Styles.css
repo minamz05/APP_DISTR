@@ -1,0 +1,169 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, sans-serif; 
+    background-color: #f0f0f0; 
+    margin: 0; 
+    padding: 0; 
+    color: #333;
+    line-height: 1.6; 
+}
+
+
+.login-form {
+    margin: 50px auto;
+    width: 300px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+.login-header {
+    text-align: center; 
+}
+.add-header {
+    text-align: center; 
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"],
+.login-form input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+/* Style de base pour les liens */
+.create-account-cell a {
+  color: #007bff; /* Couleur du lien */
+  
+  transition: color 0.3s; /* Ajoute une transition douce pour le changement de couleur */
+}
+
+.create-account-cell a:hover {
+  color: #0056b3; /* Changement de couleur au survol */
+}
+
+
+.login-form input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.login-form input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.add-form {
+    width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.add-form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.add-form input[type="text"],
+.add-form input[type="password"],
+.add-form input[type="date"],
+.add-form input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.add-form input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.add-form input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.add-form a {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+}
+/* styles.css */
+
+/* Reset des marges et des paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styles communs à toutes les pages */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+/* Barre latérale */
+/* Styles de la barre de navigation */
+.navbar {
+    background-color: #ffffff; /* Couleur de fond */
+    padding: 15px 0; /* Espacement interne */
+    border-bottom: 1px solid #e3e3e3; /* Bordure en bas */
+}
+
+.navbar-brand {
+    font-size: 1.5rem; /* Taille de la police */
+    font-weight: bold; /* Gras */
+    color: #333333; /* Couleur du texte */
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.navbar-nav .nav-link {
+    color: #333333; /* Couleur du texte */
+    margin-left: 20px; /* Marge à gauche entre les éléments */
+    font-size: 1rem; /* Taille de la police */
+    font-weight: 500; /* Gras */
+    transition: color 0.3s ease; /* Transition de couleur */
+}
+
+.navbar-nav .nav-link:hover {
+    color: #007bff; /* Couleur du texte au survol */
+}
+
+.navbar-nav .badge {
+    background-color: #dc3545; /* Couleur de fond */
+    color: #ffffff; /* Couleur du texte */
+    font-size: 0.8rem; /* Taille de la police */
+    font-weight: bold; /* Gras */
+    padding: 4px 8px; /* Espacement interne */
+    border-radius: 50%; /* Bordure arrondie */
+}
+
+/* Médias queries pour la version mobile */
+@media (max-width: 768px) {
+    .navbar-collapse {
+        background-color: #ffffff; /* Couleur de fond du menu déroulant */
+        padding: 10px 0; /* Espacement interne */
+        border-top: 1px solid #e3e3e3; /* Bordure en haut */
+    }
+
+    .navbar-nav .nav-link {
+        margin: 10px 0; /* Marge entre les éléments */
+        font-size: 1.2rem; /* Taille de la police */
+    }
+}
+
